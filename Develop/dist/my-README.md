@@ -1,9 +1,4 @@
-
-
-// Create a function to generate markdown for README
-
-function generateMarkdown(data) {
-  return `# ${data.title}
+# readmegenee
   
 
   ## Table-of-Contents
@@ -18,23 +13,19 @@ function generateMarkdown(data) {
  
   
   ## [Description](#table-of-contents)
-  ${data.description}
+  this application helps you create a ReadMe files in no time !
   ## [Installation](#table-of-contents)
-  ${data.installation}
+  clone this application and install inquirer to root your npm repository
   ## [Usage](#table-of-contents)
-  ${data.usage}
+  open terminal  where the index.js file is at  and run index.js
   ## [License](#table-of-contents)
-  ${data.license}
+  mit
   ## [Contributing](#table-of-contents)
-  ${data.Contributers}
+  true
   ## [Tests](#table-of-contents)
-  ${data.tests}
+   none needed!
   ## [Questions](#table-of-contents)
   Contact me using the following links:
-  [GitHub](https://github.com/${data.githubUsername})
-  [Email: ${data.email}](mailto:${data.email})
+  [GitHub](https://github.com/undefined)
+  [Email: undefined](mailto:undefined)
 
-`;
-}
-
-module.exports = generateMarkdown;
